@@ -32,3 +32,8 @@ alias masu='mas upgrade'
 alias saf='defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder'
 alias haf='defaults write com.apple.finder AppleShowAllFiles FALSE; killall Finder'
 alias o='open . &'
+
+# Dataform
+alias dft='dataform test --vars run_tests=true'
+alias dfdt='dataform run --tags yzh && dataform test --vars run_tests=true'
+alias dfd='dataform run --tags yzh;'
